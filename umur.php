@@ -1,5 +1,5 @@
 <?php
-	function umur($umur = '1996-12'){
+	function umur($umur = '1991-07'){
 		$tgl = date('Y-m');
 		$dikurangi = strtotime($tgl);
 		$pengurang = strtotime($umur);
